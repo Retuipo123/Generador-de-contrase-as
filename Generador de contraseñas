@@ -1,0 +1,8 @@
+import random
+contraseña = "" 
+caracteres = "gfbsauhijfhnsomiakjdfnsahvnmvckxzlkocrnevhiwj641378530194038726653278530241#%$&#&%/&(/)(=)?(/&(%/$&#))"
+numeros = int(input("Ingresa un número:"))
+for i in range(numeros):
+    contraseña+=random.choice(caracteres)
+
+print(contraseña)
